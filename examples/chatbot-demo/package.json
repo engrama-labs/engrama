@@ -1,0 +1,16 @@
+{
+  "name": "engrama-chatbot-demo",
+  "version": "1.0.0",
+  "description": "Chatbot with persistent memory powered by Engrama",
+  "scripts": {
+    "start": "npx tsx index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.4"
+  }
+}

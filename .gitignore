@@ -1,0 +1,51 @@
+# Engrama — .gitignore
+
+# Environment
+.env
+.env.local
+.env.production
+.env*.local
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+venv/
+.python-version
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Qdrant data (if running locally outside Docker)
+qdrant_storage/
+
+# Temporary claude files
+tmpclaude-*
