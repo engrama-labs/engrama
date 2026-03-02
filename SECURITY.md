@@ -12,7 +12,7 @@
 
 To report a security issue, email us directly at:
 
-**security@engrama.ai**
+**security@engrama.io**
 
 Include the following in your report:
 - Description of the vulnerability
@@ -31,7 +31,7 @@ In scope:
 - Data leakage between user scopes
 
 Out of scope:
-- Hosted cloud infrastructure at `engrama.ai` (report via email)
+- Hosted cloud infrastructure at `engrama.io` (report via email)
 - Third-party dependencies (report upstream)
 - Social engineering attacks
 

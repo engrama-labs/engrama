@@ -13,7 +13,7 @@ import { createClient } from '@engrama-ai/sdk';
 
 const engrama = createClient({
   baseURL: 'http://localhost:3000',  // self-hosted
-  // baseURL: 'https://api.engrama.ai', // hosted
+  // baseURL: 'https://api.engrama.io', // hosted
   // apiKey: 'your_api_key',
 });
 
@@ -46,4 +46,4 @@ const { prompt } = await engrama.assemblePrompt({
 
 ## Full Reference
 
-See the [API Reference](https://engrama.ai/docs/api) for all available methods and options.
+See the [API Reference](https://engrama.io/docs/api) for all available methods and options.

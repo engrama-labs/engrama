@@ -13,7 +13,7 @@ from engrama import EngramaClient
 
 client = EngramaClient(
     base_url="http://localhost:3000",  # self-hosted
-    # base_url="https://api.engrama.ai",  # hosted
+    # base_url="https://api.engrama.io",  # hosted
     # api_key="your_api_key",
 )
 
@@ -47,4 +47,4 @@ print(response["prompt"])
 
 ## Full Reference
 
-See the [API Reference](https://engrama.ai/docs/api) for all available methods and options.
+See the [API Reference](https://engrama.io/docs/api) for all available methods and options.

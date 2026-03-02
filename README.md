@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://engrama.ai/engrama-logo.png" alt="Engrama" width="60" />
+  <img src="https://engrama.io/engrama-logo.png" alt="Engrama" width="60" />
 </p>
 
 <h3 align="center">Engrama</h3>
@@ -7,7 +7,7 @@
 <p align="center">
   Open-source long-term memory infrastructure for AI agents.
   <br />
-  <a href="https://engrama.ai/docs"><strong>Documentation</strong></a> ·
+  <a href="https://engrama.io/docs"><strong>Documentation</strong></a> ·
   <a href="https://github.com/engrama-labs/engrama/issues">Report Bug</a> ·
   <a href="https://github.com/engrama-labs/engrama/discussions">Discussions</a>
 </p>
@@ -87,7 +87,7 @@ npm run dev
 
 **Option 3 — Use the hosted API**
 
-No self-hosting required. Sign up at [engrama.ai](https://engrama.ai) and get an API key.
+No self-hosting required. Sign up at [engrama.io](https://engrama.io) and get an API key.
 
 ---
 
@@ -136,7 +136,7 @@ npm install @engrama-ai/sdk
 import { createClient } from '@engrama-ai/sdk';
 
 const engrama = createClient({
-  baseURL: 'http://localhost:3000',  // or 'https://api.engrama.ai'
+  baseURL: 'http://localhost:3000',  // or 'https://api.engrama.io'
   // apiKey: 'your_api_key',         // required for hosted API
 });
 
@@ -279,7 +279,7 @@ taskId    → per-task memories (task-scoped context)
 | `/api/auth/login` | POST | Get a JWT token |
 | `/health` | GET | Health check |
 
-Full API reference: [engrama.ai/docs/api](https://engrama.ai/docs/api)
+Full API reference: [engrama.io/docs/api](https://engrama.io/docs/api)
 
 ---
 
@@ -350,7 +350,7 @@ Track progress and vote on features in [GitHub Issues](https://github.com/engram
 | Knowledge graph | ✅ | ✅ | ❌ |
 | Multi-agent / multi-scope | ✅ | ✅ | ❌ |
 | Self-hostable | ✅ One command | ✅ | Manual |
-| Hosted cloud option | ✅ engrama.ai | ✅ | ❌ |
+| Hosted cloud option | ✅ engrama.io | ✅ | ❌ |
 | LangChain adapter | ✅ | ✅ | ❌ |
 | Prompt assembly | ✅ | ❌ | ❌ |
 
@@ -370,7 +370,7 @@ Top areas we need help with:
 
 - **GitHub Discussions** — questions, ideas, show-and-tell
 - **Issues** — bugs and feature requests
-- **Email** — [hello@engrama.ai](mailto:hello@engrama.ai)
+- **Email** — [hello@engrama.io](mailto:hello@engrama.io)
 
 ---
 
@@ -381,5 +381,5 @@ MIT — see [LICENSE](LICENSE).
 ---
 
 <p align="center">
-  Built by <a href="https://engrama.ai">Engrama Labs</a> · Star us on GitHub if you find this useful
+  Built by <a href="https://engrama.io">Engrama Labs</a> · Star us on GitHub if you find this useful
 </p>
