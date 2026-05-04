@@ -374,6 +374,12 @@ Top areas we need help with:
 
 ---
 
+## Contact Us
+
+- **Email** — [surajgupta.media@gmail.com](mailto:surajgupta.media@gmail.com)
+
+---
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
